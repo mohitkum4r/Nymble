@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/capture")
 public class CaptureController {
-
     @Autowired
     private PrioritizationService prioritizationService;
 
