@@ -24,7 +24,7 @@ public class CameraHardwareInterface {
         result.setClientId(request.getClientId());
         // Assuming the capture can succeed or fail randomly
         if (Math.random() > 0.5) {
-            result.setImageUrl("http://image.url/captured.jpg");
+            result.setImageUrl("/images/" + request.getRequestId() + ".jpg");
         } else {
             result.setErrorMessage("Capture failed due to hardware error.");
         }
