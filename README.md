@@ -22,6 +22,7 @@ For a visual representation of the system's architecture, refer to the following
 - **CaptureController**: Handles HTTP requests for image capture.
 
 ### Models
+- **Client**: Represents a client.
 - **CaptureRequest**: Represents a request to capture an image.
 - **CaptureResult**: Represents the result of an image capture.
 - **Log**: Represents a log entry.
