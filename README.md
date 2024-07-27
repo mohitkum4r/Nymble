@@ -33,8 +33,18 @@
 - **PriorityQueueStrategy**: Strategy for handling high-priority requests.
 - **StandardQueueStrategy**: Strategy for handling standard-priority requests.
 
-## Diagram
+## Diagrams
+
+### Excalidraw Diagram
 
 For a visual representation of the system's architecture, refer to the following Excalidraw diagram:
 
 [Excalidraw Diagram](https://excalidraw.com/#json=a9wBRZCy4xjoTopvhxgUN,PtVJekFe85mYjpWoifCy8g)
+
+### Sequence Diagram
+
+![Sequence Diagram](https://static.swimlanes.io/3734d2e654861ac6860e5e6b51d21cfc.png)
+
+### High-Level Design
+
+![HLD](/HLD.png)
